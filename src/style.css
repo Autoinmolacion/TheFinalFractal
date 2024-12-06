@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#downloadButton {
+    position: fixed; /* Changed from absolute to fixed */
+    top: 10px;
+    left: 10px;
+    /* Ensure the button adapts to window resizing */
+    z-index: 1000; /* Ensure the button is always on top */
+    padding: 10px 10px;
+    background-color: #4a4a4a;
+    color: rgb(241, 241, 241);
+    margin: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}s
+
+#downloadButton:hover {
+    background-color: #005f75;
+}
